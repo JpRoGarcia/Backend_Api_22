@@ -1,0 +1,26 @@
+{
+  "name": "apibackend",
+  "version": "1.0.0",
+  "description": "Api backend restaurante",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JpRoGarcia/Backend_Api_22.git"
+  },
+  "author": "JpRoGarcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JpRoGarcia/Backend_Api_22/issues"
+  },
+  "homepage": "https://github.com/JpRoGarcia/Backend_Api_22#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
