@@ -11,8 +11,8 @@ const usuario_ctr = require('../controllers/usuarios.controller')
 
 const vs = "/api/v1"
 
-router.get(vs + '/usuarios', usuario_ctr.consultarUsuario)
-    .get(vs + '/usuarios/:id', usuario_ctr.consultarUsuarios)
+router.get(vs + '/usuarios', usuario_ctr.consultarUsuarios)
+    .get(vs + '/usuarios/:id', usuario_ctr.consultarUsuario)
     .post(vs + '/usuarios', usuario_ctr.crearUsuario)
     .put(vs + '/usuarios', usuario_ctr.modificarUsuario)
     .delete(vs + '/usuarios', usuario_ctr.eliminarUsuario)

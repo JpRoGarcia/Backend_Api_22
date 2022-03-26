@@ -20,7 +20,6 @@
 |--index.js
 ```
 
-
 # Notas
 
 1. Controllers: Controlar el trafico de informacion
@@ -28,7 +27,6 @@
 3. Services: Servicios que se van a utilizar
 4. inde.js INicio del APi
 5. .gitIgnore: Ignora la carga de archivos y/o carpetas al repositorio
-
 
 ## Comandos
 
@@ -38,10 +36,14 @@
 
 'npm install' : Instalar TODAS las librerias o frameworks registradas en el package.json
 
-
-
 ## Librerias y Framewors
 
 Express: 'npm install express --save' Framework para crear la API
 
 nodemon: npm i nodemon herramienta para recargar el proyecto automaticamentes
+
+
+```json
+{
+
+```
