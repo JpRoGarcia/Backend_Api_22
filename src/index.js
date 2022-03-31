@@ -1,8 +1,14 @@
 // IMportacion del frameword de expree
 const express = require('express')
 
+//Agregar configuracion a preocess.env
+require('../Config/index.config')
+
 //Creando la aplicacion de expree
 const app = express()
+
+// Aplicar middleware que permite leer los json del body
+app.use(express.json())
 
 // Integrado el router con la API
 const router = require('./routers/index.router')
